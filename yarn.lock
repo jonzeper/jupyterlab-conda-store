@@ -1065,10 +1065,9 @@
     style-mod "^4.0.0"
     w3c-keyname "^2.2.4"
 
-"@conda-store/conda-store-ui@^0.1.2":
+"@conda-store/conda-store-ui@git+https://github.com/jujogi/conda-store-ui.git#bugfix/scrolling":
   version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@conda-store/conda-store-ui/-/conda-store-ui-0.1.2.tgz#0620a65a471a26105393b42498ca9c6c0af05f3d"
-  integrity sha512-PfkG0X5wRAVkF+PtZRRBTCfK3wniOfP4Iq8TCzKUeEAOOeIZ4Y87mZfdYeKBVDq9FgKB/QlfDslHzOIy0gpEEQ==
+  resolved "git+https://github.com/jujogi/conda-store-ui.git#a6280182ed9cdc616c1825262015d72cb839270b"
   dependencies:
     "@codemirror/language" "^6.2.1"
     "@codemirror/legacy-modes" "^6.1.0"
