@@ -63,11 +63,11 @@ skip-if-exists = ["jupyterlab_conda_store/labextension/static/style.js"]
 
 [tool.hatch.build.hooks.jupyter-builder.build-kwargs]
 build_cmd = "build:prod"
-npm = ["jlpm"]
+npm = ["jlpm --network-concurrency 1"]
 
 [tool.hatch.build.hooks.jupyter-builder.editable-build-kwargs]
 build_cmd = "install:extension"
-npm = ["jlpm"]
+npm = ["jlpm --network-concurrency 1"]
 source_dir = "src"
 build_dir = "jupyterlab_conda_store/labextension"
 
