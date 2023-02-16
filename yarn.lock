@@ -1071,9 +1071,9 @@
     style-mod "^4.0.0"
     w3c-keyname "^2.2.4"
 
-"@conda-store/conda-store-ui@git+https://github.com/Quansight/conda-store-ui.git#5b47e66":
+"@conda-store/conda-store-ui@git+https://github.com/Quansight/conda-store-ui#5b47e66":
   version "0.1.3-rc1"
-  resolved "git+https://github.com/Quansight/conda-store-ui.git#5b47e66c513c37b94f4c5cb844f8901af38b1a7f"
+  resolved "git+https://github.com/Quansight/conda-store-ui#5b47e66c513c37b94f4c5cb844f8901af38b1a7f"
   dependencies:
     "@codemirror/language" "^6.2.1"
     "@codemirror/legacy-modes" "^6.1.0"
